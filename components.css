@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 2rem;
+}
+
+a {
+  cursor: pointer;
+}
+
+body {
+  margin: 2rem;
+}
+
+
+                      /* The base of every button */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.42857143;
+  padding: 0.4rem 0.7rem;
+  margin-bottom: 0.6rem;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff;
+}
+
+                            /* Additional styles for "Default" */
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn-default:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+                          /* Additional stíles for "Primary" */
+
+.btn-primary {
+  background-color: #337ab7;
+  border: #2e6da4;
+}
+
+.btn-primary:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+                        /* Additional stíles for "Success" */
+
+.btn-success {
+  background-color: #5cb85c;
+  border: #4cae4c;
+}
+
+.btn-success:hover {
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+
+                        /* Additional stíles for "Info" */
+
+.btn-info {
+  background-color: #5bc0de;
+  border: #46b8da;
+}
+
+.btn-info:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+                        /* Additional stíles for "Warning" */
+
+.btn-warning {
+  background-color: #f0ad4e;
+  border: #eea236;
+}
+
+.btn-warning:hover {
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+
+                        /* Additional stíles for "Danger" */
+
+.btn-danger {
+  background-color: #d9534f;
+  border: #d43f3a;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+
+
+                        /* Flat buttons */
+
+.flats {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.42857143;
+  padding: 0.4rem 0.7rem;
+  margin-bottom: 0.6rem;
+  border: 0.0625rem solid transparent;
+  border-color: black;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: black;
+  background-color: white;
+}
+
+.flats:hover {
+  background-color: black;
+  border-color: white;
+  color: white;
+  transition: background-color .15s ease-in-out;
+}
+
+                        /* ==== Navigation buttons ==== */
+
+nav ul {
+  background-color: #eee;
+  text-align: center;
+}
+
+nav li {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #C74F78;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+
+nav a.active {
+  background-color: #c74f78;
+  color: #eee;
+  cursor: auto;
+}
+
+@media (min-width: 600px) {
+
+  nav li {
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+
+}
+
+nav { /*ez veszi ki a whitespacet a gombok közül*/
+  font-size: 0;
+}
